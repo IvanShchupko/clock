@@ -88,13 +88,13 @@
   transition: 1s;
 }
 .main:hover .main__hour-hand {
-  animation: time 86400s steps(60) infinite;
+  animation: time 18000s steps(60) infinite;
 }
 .main:hover .main__minutes-hand {
-  animation: time 360s steps(60) infinite;
+  animation: time 300s steps(60) infinite;
 }
 .main:hover .main__second-hand {
-  animation: time 6s steps(60) infinite;
+  animation: time 5s steps(60) infinite;
 }
 @keyframes time {
   0% {
